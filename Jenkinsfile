@@ -17,7 +17,7 @@ pipeline {
 
             steps {
 
-                sh 'ifcofig'
+                sh 'ifconfig'
 
             }
 
