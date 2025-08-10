@@ -7,7 +7,7 @@ pipeline {
 
             steps {
 
-                echo 'Building Example'
+                sh 'hostname'
 
             }
 
@@ -17,7 +17,7 @@ pipeline {
 
             steps {
 
-                echo 'Testing Example'
+                sh 'ifcofig'
 
             }
 
